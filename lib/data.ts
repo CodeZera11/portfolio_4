@@ -4,6 +4,9 @@ import { FaReact } from "react-icons/fa";
 import ecommerce from "@/public/ecommerce.png";
 import netinfo from "@/public/netinfo.png";
 import ytclone from "@/public/ytclone.png";
+import meta from "@/public/meta_front_end_developer.png";
+import ibm from "@/public/ibm_backend_developer.png";
+import mongodb from "@/public/mongodb.png";
 
 export const links = [
   {
@@ -13,6 +16,10 @@ export const links = [
   {
     name: "About",
     hash: "#about",
+  },
+  {
+    name: "Certificates",
+    hash: "#certificates",
   },
   {
     name: "Projects",
@@ -75,6 +82,30 @@ export const projectsData = [
     tags: ["React", "Material UI", "Rapid API"],
     imageUrl: ytclone,
     link: "https://verdant-marshmallow-2ad20e.netlify.app/",
+  },
+] as const;
+
+export const certificatesData = [
+  {
+    title: "META | META FRONT-END DEVELOPER",
+    description:
+      "eCommerce website project which is a modern and user-friendly platform that allows customers to browse and purchase products of their choice.",
+    imageUrl: meta,
+    link: "https://coursera.org/share/676cd873403cf5995dea600cc4b55ceb",
+  },
+  {
+    title: "IBM | BACKEND DEVELOPER",
+    description:
+      "A place where you can discover and explore a vast collection of movies and shows available on Netflix!",
+    imageUrl: ibm,
+    link: "https://www.coursera.org/account/accomplishments/verify/3PVFSKW489HQ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course",
+  },
+  {
+    title: "MongoDB",
+    description:
+      "A youtube clone built with React 18, Material UI, and powered by Rapid API!.",
+    imageUrl: mongodb,
+    link: "https://coursera.org/share/12dccdc5b13a2c335d948245915135db",
   },
 ] as const;
 
