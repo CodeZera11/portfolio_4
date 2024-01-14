@@ -50,7 +50,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm CodeZera.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span>{" "}
-        building <span className="italic">sites & apps</span>. My focus is on{" "}
+        building <span className="italic">modern sites</span>. My focus is on{" "}
         <span className="underline">Next.js and Nest.js</span>.
       </motion.h1>
 
