@@ -7,6 +7,7 @@ import ytclone from "@/public/ytclone.png";
 import meta from "@/public/meta_front_end_developer.png";
 import ibm from "@/public/ibm_backend_developer.png";
 import mongodb from "@/public/mongodb.png";
+import aiImage from "@/public/ai-image.png";
 
 export const links = [
   {
@@ -60,20 +61,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "AI Image Generator",
+    description:
+      "An AI powered image generator which takes text prompts and generates images with the help of AI.",
+    tags: ["TS", "Next.js", "Prisma", "Tailwind", "Stripe"],
+    imageUrl: aiImage,
+    link: "https://ai-image-rose.vercel.app/",
+  },
+  {
     title: "Ecommerce Store",
     description:
       "eCommerce website project which is a modern and user-friendly platform that allows customers to browse and purchase products of their choice.",
     tags: ["TS", "Next.js", "Prisma", "Tailwind"],
     imageUrl: ecommerce,
     link: "https://ecommerce-project-dj7m.vercel.app/",
-  },
-  {
-    title: "Net Info",
-    description:
-      "A place where you can discover and explore a vast collection of movies and shows available on Netflix!",
-    tags: ["JavaScript", "React", "Next.js", "Tailwind", "Rapid API"],
-    imageUrl: netinfo,
-    link: "https://net-info.vercel.app/",
   },
   {
     title: "Youtube Clone",
